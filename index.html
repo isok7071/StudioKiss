@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<div class="popup-bg hide" id="popup-bg">
+		<div class="popup">
+			<div class="popup_x" id="popup_x" onclick="popupToggle()">X</div>
+			<h2>Заказать звонок</h2>
+			<form>
+				<input type="text" placeholder="Мероприятие" required>
+				<input type="text" placeholder="ФИО" required>
+				<input type="text" placeholder="Телефон" required>
+				<input type="email" placeholder="E-mail" required>
+				<input type="date" placeholder="Дата" required>
+				<button>Отправить</button>
+				
+			</form>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="menu">
+				<div class="logo">
+					<a href="#">StudioKISS</a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="#card">О нас</a>
+						</li>
+						<li> 
+							<a href="#gallery">Галерея работ</a>
+						</li>
+						<li>
+							<a href="#services">Услуги</a>
+						</li>
+					</ul>
+				</nav>
+					<div class="social">
+						<a href="#">
+							<div class="vk"></div>
+						</a>
+						<a href="#">
+							<div class="inst"></div>
+						</a>
+					</div>
+				<div class="contact_info">
+					<ul>
+						<li>
+							<a href="mailto:kiss@studio.ru">kiss@studio.ru</a>
+						</li>
+						<li>
+							<a href="tel:895012312321">8(916)223-85-44</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="card">
+		<div class="container">
+			<div class="box">
+				<h1>Профессиональная предметная фотосъемка</h1>
+				<p>Сфотографируем в короткие сроки</p>
+				<a href="#" class="btn" id="btn" onclick="popupToggle()">Заказать звонок</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="gallery">
+		<div class="container">
+			<h2>Галерея работ</h2>	
+			<div class="gallery_cards">
+				<div class="card">
+					<img src="img/gallery/1.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/2.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/3.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/4.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/5.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/6.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/7.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/8.jpg">
+				</div>
+				<div class="card">
+					<img src="img/gallery/9.jpg">
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container">
+			<h2>Наши услуги</h2>
+			<div class="services_row">
+					<div class="service_card">
+						<img src="img/gallery/1.jpg">
+						<p class="service_name">Фото товара с моделью</p>
+						<p class="service_cost"> <span>1000</span>р. в час</p>
+						<a class="btn_black" onclick="popupToggle()">Заказать звонок</a>
+					</div>
+					<div class="service_card">
+						<img src="img/gallery/2.jpg">
+						<p class="service_name">Фото товара на улице</p>
+						<p class="service_cost"> <span>1000</span>р. в час</p>
+						<a class="btn_black" onclick="popupToggle()">Заказать звонок</a>
+					</div>
+					<div class="service_card">
+						<img src="img/gallery/3.jpg">
+						<p class="service_name">Фото товара для МП</p>
+						<p class="service_cost"> <span>250</span>р. в час</p>
+						<a class="btn_black" onclick="popupToggle()">Заказать звонок</a>
+					</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	
+	<footer>
+		<div class="container">
+			<div class="footer_content">
+				<ul class="text-left">
+					<li>
+						<a href="#card">О нас</a>
+					</li>
+					<li>
+						<a href="#gallery">Галерея работ</a>
+					</li>
+					<li>
+						<a href="#services">Наши услуги</a>
+					</li>
+				</ul>
+
+				<ul class="text-center">
+					<li>
+						<a href="#">Мы ВКонтакте</a>
+					</li>
+					<li>
+						<a href="#">Мы в Инстаграм</a>
+					</li>
+				</ul>
+
+				<ul class="text-right">
+					<li>
+						<a href="#">ИП Буянкина И.Н.</a>
+					</li>
+					<li>
+						<a href="#">ИНН:123123121</a>
+					</li>
+					<li>
+						<a href="#">ОГРНИП: 234123123212</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+	</footer>
+
+
+
+
+
+	
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
